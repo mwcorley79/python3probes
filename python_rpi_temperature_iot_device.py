@@ -1,4 +1,5 @@
-# Python test for simple IoT dev prototype: reads sensor data from from a BME280 and sends
+# README
+# Python test for simple IoT dev prototype: reads sensor data from a BME280 and sends
 # telemetry to the Azure Cloud (IoT Hub)
 
 # prereqs: 

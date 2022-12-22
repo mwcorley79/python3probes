@@ -7,3 +7,6 @@ pybq.py - implements a (initial) basic BQ class
 python_bq_test.py - a simple test executive
 
 Run command: python python_bq_test.py
+
+Example # 2: (see README -> python_rpi_temperature_iot_device.py ): A simple IoT dev prototype: reads sensor data from a BME280, and sends telemetry to the Azure Cloud (IoT Hub)
+
