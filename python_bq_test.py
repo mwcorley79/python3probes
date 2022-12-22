@@ -4,7 +4,6 @@ import threading
 import time
 
 def deQ_thread_function(bq):
-  
     msg = bq.deQ()
     while msg != "quit":
         print(f'Thread deQued: {msg} -> type: {type(msg)}')
@@ -12,7 +11,7 @@ def deQ_thread_function(bq):
         time.sleep(.0001)
        
 def main():
-    # construction based refernce semantics (like C# and Java).  
+    # construction is reference semantics (like C# and Java).  
     # test 1: strings 
     bq = BlockingQueue.BQueue() 
     
