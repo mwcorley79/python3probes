@@ -1,6 +1,7 @@
 #  Sources: 
-#    This is first attempt to port of Dr. Fawcets's Cpp11 BlockingQueue: 
+#     Very basic, first version port of Dr. Fawcett's Cpp11 BlockingQueue: 
 #     https://github.com/JimFawcett/CppBlockingQueue/tree/master/Cpp11-BlockingQueue
+
 #  Other sources: 
 #    lists (as queues):                         https://www.geeksforgeeks.org/queue-in-python/
 #    class definition/syntax:                   https://www.w3schools.com/python/python_classes.asp
