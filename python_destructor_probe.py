@@ -1,8 +1,8 @@
-# Mike C.  Python 3, destructior test.  Muck like finalizer in C#, but very different than
-# C++ since the Python and C# object models are based reference semantics, 
+# Python 3, destructor test.  Much like finalizer in C#, but very different than
+# C++ since the Python and C# object models are based reference semantics 
 # while C++ is based value semantics  
 
-# derviced from source: https://www.geeksforgeeks.org/destructors-in-python/?ref=lbp
+# derived from source: https://www.geeksforgeeks.org/destructors-in-python/?ref=lbp
 
 class Employee:
     # Initializing
