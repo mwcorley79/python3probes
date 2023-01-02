@@ -150,7 +150,7 @@ class Message:
 
      # private function, must be called every there is mofifcation to the 
      # to message. In this way, the up to date message state is packed in network
-     # byte order and ready serization into the network-bound soket etc.
+     # byte order for serialization into network sockets etc.
      # https://docs.python.org/3/library/struct.html
      def _packMsg(self):
        self._packed_msg_hdr = struct.pack('!BI'+str(len(self._msg_data)) + 's', self._msg_type.value, len(self._msg_data), self._msg_data)
