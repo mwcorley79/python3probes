@@ -22,6 +22,7 @@
 # https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
 # https://medium.com/geekculture/gpio-programming-on-the-raspberry-pi-python-libraries-e12af7e0a812
 # https://raspi.tv/2013/rpi-gpio-basics-4-setting-up-rpi-gpio-numbering-systems-and-inputs
+# https://www.raspberrypi-spy.co.uk/2016/07/using-bme280-i2c-temperature-pressure-sensor-in-python/
 
 # https://linux.die.net/man/8/i2cdetect 
 # i2cdetect is a userspace program to scan an I2C bus for devices.
