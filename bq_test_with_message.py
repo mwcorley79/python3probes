@@ -19,10 +19,10 @@ def deQ_thread_function(bq):
         print(f'deQing: {msg} object type: {type(msg)}')
         print(f"\"msg\" identity      : {id(msg)}")
         print(f"\"msg\" data          : {msg}")
-        print(f"\"msg\" len           : {msg.Size()}")
+        print(f"\"msg\" len           : {msg.content_len}")
         print(f"\"msg\" type          : {msg.msg_type}")
-        print(f"\"msg content (str)   : {msg.GetContentAsStr} {type(msg.GetContentAsStr)}")
-        print(f"\"msg content (bytes) : {msg.GetContentAsBytes} {type(msg.GetContentAsBytes)}\n")
+        print(f"\"msg content (str)   : {msg.to_string()} {type(msg.to_string())}")
+        print(f"\"msg content (bytes) : {msg.content} {type(msg.content)}\n")
         # time.sleep(.000001)
 
 
@@ -43,7 +43,7 @@ if __name__ == "__main__":
         bq.enQ(msg)
         print(f'main enQing: {msg}');
        
-    bq.enQ(Message.Message(MessageType.END))
+    bq.enQ(Message.empty_init(MessageType.END))
     t.join()
     
 
